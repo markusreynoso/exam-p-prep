@@ -19,8 +19,8 @@ If $X$ and $Y$ are independent, then
 $$
 \begin{align*}
 V[XY] &= E[X^2]E[Y^2] - E[X]^2E[Y]^2 \\
+&= E[X]^2V[Y] + E[Y]^2V[X] + V[X]V[Y] \\
 &\approx E[X]^2V[Y] + E[Y]^2V[X] \\
-&= E[X]^2V[Y] + E[Y]^2V[X] + V[X]V[Y]
 \end{align*}
 $$
 ## Law of Total Variance

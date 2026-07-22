@@ -3,6 +3,8 @@ Given $X  \sim Gamma(k, \lambda)$
 $$
 f(x) = \frac{\lambda^k}{\Gamma(k)}x^{k-1}e^{-\lambda x}, \quad x>0
 $$
+where $\Gamma(\cdot)$ is the [[Gamma Function]]
+
 $E[X] = \frac{k}{\lambda}$
 $V[X] = \frac{k}{\lambda^2}$
 

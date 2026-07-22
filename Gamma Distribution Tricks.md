@@ -2,7 +2,7 @@
 
 
 ---
-
+Here are some tricks involving the [[Gamma Distribution]]
 ### 5. Recover Parameters (very common)
 
 Given mean $$ m $$ and variance $$ v $$:

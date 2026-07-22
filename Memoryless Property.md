@@ -1,6 +1,6 @@
 #Property
 
-If you've already been waiting for $s$ long and you're wondering what is the probability that it will take another $t$ long, then that is the same probability as if you had just started waiting.
+This is a property only found with the [[Exponential Distribution]] and the Geometric Distribution If you've already been waiting for $s$ long and you're wondering what is the probability that it will take another $t$ long, then that is the same probability as if you had just started waiting.
 
 $$
 P(X > s + t \mid X > s) = P(X >t)

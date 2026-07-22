@@ -1,4 +1,4 @@
-If we wish to use normal approximation (via [[Central Limit Theorem|CLT]]) on a binomial random variable, we must perform the following:
+If we wish to use normal approximation (via [[Central Limit Theorem|CLT]]) on a [[Binomial Distribution|binomial random variable]], we must perform the following:
 
 | Binomial event | Normal approximation | How to remember                         |
 | -------------- | -------------------- | --------------------------------------- |

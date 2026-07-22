@@ -1,4 +1,5 @@
 #Property
+Similar to the [[Memoryless Property]], this only applies to the [[Geometric Distribution]] and the [[Exponential Distribution]] 
 Given $X \sim Geo(p)$ and $Y \sim Geo(q)$
 
 $$

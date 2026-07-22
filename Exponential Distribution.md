@@ -10,6 +10,7 @@ $E[X]  = \frac{1}{\lambda}$
 $V[X] = \frac{1}{\lambda^2}$
 Median = $\frac{\ln2}{\lambda}$
 
+The exponential distribution is a special case of the [[Gamma Distribution]], that is, if 
 ## CDF
 $$
 P(X \leq k) = 1-e^{-\lambda k}
@@ -43,7 +44,7 @@ $$
 This gives us the expected payout net of a deductible. Generally speaking,
 
 >$$
-E[\max(X-d, 0)^n_{+}] = e^{-\lambda d}\frac{n!}{\lambda^n}
+E[\max(X-d, 0)^n] = e^{-\lambda d}\frac{n!}{\lambda^n}
 $$
 
 Meanwhile [[Memoryless Property|the expected payout given that the loss already exceeds the deductible is simply:]]
