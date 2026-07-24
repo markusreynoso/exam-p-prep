@@ -1,4 +1,8 @@
+Given $X \sim \text{U}(a, b)$, the pdf is 
 
+$$
+f(x) = \frac{1}{b-a}, \quad x \in [a, b]
+$$
 ## Tricks
 ### Moments
 >$$
