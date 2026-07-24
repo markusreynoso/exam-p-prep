@@ -37,4 +37,3 @@ $$P(X > x) = e^{2\lambda}\left(1 + \frac{(\lambda x)^2}{2} \right)$$
 >$$
 P(X > x) = P\big(Poi(\lambda x) < k\big)
 $$
-
