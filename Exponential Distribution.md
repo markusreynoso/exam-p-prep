@@ -68,6 +68,12 @@ Given $X_{1} \sim Exp(\lambda_{1}), \; \ldots \; , X_n \sim Exp(\lambda_n)$, the
 >$$
 \min(X_1, \ldots, X_n) \sim Exp(\lambda_1 + \cdots + \lambda_n)
 $$
+
+### Limited Deductible Subject Expected Value
+This is an applied case of the [[Limited Deductible Subject Expected Value]] trick.
+>$$
+E[\min(\max(X-d, 0), u)] = \frac{1}{\lambda}(e^{-\lambda d} - e^{-\lambda u-\lambda d})
+$$
 ### Memoryless Property
 [[Memoryless Property]]
 
