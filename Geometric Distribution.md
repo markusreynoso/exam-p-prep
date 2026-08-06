@@ -16,7 +16,7 @@ $$
 
 The second one models the number of failures before the first success, with probability mass function
 $$
-P(X=x) = (1-p)^{k}p, \quad x \in \{1,2,3,\ldots\}
+P(X=x) = (1-p)^{k}p, \quad x \in \{0,1,2,3,\ldots\}
 $$
 This formula is more straightforward wherein we ask the probability of the failure event occurring $k$ times consecutively. In this case, we have
 $$
