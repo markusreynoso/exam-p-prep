@@ -39,9 +39,7 @@ and clearly, $R \sim Exp(\lambda) \;\;\blacksquare{}$.
 
 One application would be for deductibles. If $X \sim Exp(\lambda)$, it follows that the expected payout given that the loss exceeds the deductible is
 
->$$
-E[X - d \mid X > d] = E[X]
-$$
+>$$E[X - d \mid X > d] = E[X]$$
 
 By letting $R = X-d$, and remembering that $R \sim Exp(\lambda)$, we get
 

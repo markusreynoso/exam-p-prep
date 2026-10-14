@@ -23,9 +23,7 @@ $$
 
 If $k \in \mathbb{N}$, then
 
->$$
-P(X > x) = e^{{-\lambda x}} \sum_{i=0}^{k-1} \frac{(\lambda x)^i}{i!}
-$$
+>$$P(X > x) = e^{{-\lambda x}} \sum_{i=0}^{k-1} \frac{(\lambda x)^i}{i!}$$
 
 For example, if $k = 2$, then
 
@@ -34,6 +32,11 @@ $$P(X > x) = e^{2\lambda}\left(1 + \frac{(\lambda x)^2}{2} \right)$$
 
 ### Poisson Connection
 
->$$
-P(X > x) = P\big(Poi(\lambda x) < k\big)
-$$
+>$$P(X > x) = P\big(Poi(\lambda x) < k\big)$$
+
+
+### Parameter recovery
+
+>$$ \frac{E[X]}{V[X]} = \lambda $$
+
+>$$k = \lambda E[X] = \lambda^2V[X]$$

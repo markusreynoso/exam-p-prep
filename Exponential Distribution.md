@@ -30,50 +30,33 @@ $$
 ### Truncated exponential formula
 Given $X \sim Exp(\lambda)$
 
->$$
-E[X \mid X < t] = \frac{1}{\lambda} - \frac{te^{-\lambda t}}{1-e^{-\lambda t}}
-$$
+>$$E[X \mid X < t] = \frac{1}{\lambda} - \frac{te^{-\lambda t}}{1-e^{-\lambda t}}$$
 
 ### Expected payment net of a deductible
 Given $X \sim Exp(\lambda)$
 
->$$
-E[\max(X - d, 0)] = \frac{1}{\lambda} e^{-\lambda d}
-$$
+>$$E[\max(X - d, 0)] = \frac{1}{\lambda} e^{-\lambda d}$$
 
 This gives us the expected payout net of a deductible. Generally speaking,
 
->$$
-E[\max(X-d, 0)^n] = e^{-\lambda d}\frac{n!}{\lambda^n}
-$$
+>$$E[\max(X-d, 0)^n] = e^{-\lambda d}\frac{n!}{\lambda^n}$$
 
 Meanwhile [[Memoryless Property|the expected payout given that the loss already exceeds the deductible is simply:]]
- >$$
- E[X - d \mid X > d] = E[X] = \frac{1}{\lambda}
- $$
-
+ >$$ E[X - d \mid X > d] = E[X] = \frac{1}{\lambda} $$
 because the excess also behaves like a fresh exponential. 
-### Conditional expectation and variance ($\geq$)
 
->$$
-\begin{align}
-E[X \mid X \geq k] &= k \; + \; E[X] \\
-V[X \mid X \geq k] &= V[X]
-\end{align}
-$$
+### Conditional expectation and variance ($\geq$)
+>$$\begin{align}E[X \mid X \geq k] &= k \; + \; E[X] \\V[X \mid X \geq k] &= V[X]\end{align}$$
 
 ### Minimum
 Given $X_{1} \sim Exp(\lambda_{1}), \; \ldots \; , X_n \sim Exp(\lambda_n)$, then
 
->$$
-\min(X_1, \ldots, X_n) \sim Exp(\lambda_1 + \cdots + \lambda_n)
-$$
+>$$\min(X_1, \ldots, X_n) \sim Exp(\lambda_1 + \cdots + \lambda_n)$$
 
 ### Limited Deductible Subject Expected Value
 This is an applied case of the [[Limited Deductible Subject Expected Value]] trick.
->$$
-E[\min(\max(X-d, 0), u)] = \frac{1}{\lambda}(e^{-\lambda d} - e^{-\lambda u-\lambda d})
-$$
+>$$E[\min(\max(X-d, 0), u)] = \frac{1}{\lambda}(e^{-\lambda d} - e^{-\lambda u-\lambda d})$$
+
 ### Memoryless Property
 [[Memoryless Property]]
 
