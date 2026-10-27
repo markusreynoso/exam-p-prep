@@ -40,3 +40,8 @@ $$P(X > x) = e^{2\lambda}\left(1 + \frac{(\lambda x)^2}{2} \right)$$
 >$$ \frac{E[X]}{V[X]} = \lambda $$
 
 >$$k = \lambda E[X] = \lambda^2V[X]$$
+
+### Reproductivity
+Given $X_i \sim Gamma(k_i, \lambda)$, then 
+
+>	$$\sum_{i=1}^{n}X_i \sim Gamma\left(\sum_{i=1}^nk_i, \lambda\right)$$
