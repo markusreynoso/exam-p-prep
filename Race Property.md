@@ -10,3 +10,4 @@ On the other hand, if $X \sim Exp(p)$ and $Y \sim Exp(q)$, then simply
 $$
 P(X < Y) = \frac{p}{p+q}
 $$
+The latter is an application of the property of the [[Exponential Distribution#Minimum|minimum of exponential random variables]] wherein we are asking $P(\min(X, Y) = X)$.

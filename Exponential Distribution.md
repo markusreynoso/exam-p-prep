@@ -17,16 +17,14 @@ P(X \leq k) = 1-e^{-\lambda k}
 $$
 ## Survival function
 $$P(X \geq k) = e^{-\lambda k}$$
-## Two-sided
 
-$$
-P(a \leq X \leq b) = e^{-\lambda a} - e^{-\lambda b}
-$$
 ## Tricks
 
 ### Moments
 >$$ E[X^n] = \frac{n!}{\lambda^n}$$
 
+### Two-sided probabilities
+>$$P(a \leq X \leq b) = e^{-\lambda a} - e^{-\lambda b}$$
 ### Truncated exponential formula
 Given $X \sim Exp(\lambda)$
 
@@ -42,9 +40,9 @@ This gives us the expected payout net of a deductible. Generally speaking,
 >$$E[\max(X-d, 0)^n] = e^{-\lambda d}\frac{n!}{\lambda^n}$$
 
 Meanwhile [[Memoryless Property|the expected payout given that the loss already exceeds the deductible is simply:]]
- >$$ E[X - d \mid X > d] = E[X] = \frac{1}{\lambda} $$
-because the excess also behaves like a fresh exponential. 
+ >$$ E[X - d \mid X > d] = E[X] = \frac{1}{\lambda}$$
 
+because the excess also behaves like a fresh exponential. 
 ### Conditional expectation and variance ($\geq$)
 >$$\begin{align}E[X \mid X \geq k] &= k \; + \; E[X] \\V[X \mid X \geq k] &= V[X]\end{align}$$
 
@@ -53,6 +51,9 @@ Given $X_{1} \sim Exp(\lambda_{1}), \; \ldots \; , X_n \sim Exp(\lambda_n)$, the
 
 >$$\min(X_1, \ldots, X_n) \sim Exp(\lambda_1 + \cdots + \lambda_n)$$
 
+and 
+
+>$$P(\min(X_1, \ldots, X_n) = X_i) = \frac{\lambda_i}{\lambda_1 + \lambda_2 + \cdots + \lambda_n}$$
 ### Limited Deductible Subject Expected Value
 This is an applied case of the [[Limited Deductible Subject Expected Value]] trick.
 >$$E[\min(\max(X-d, 0), u)] = \frac{1}{\lambda}(e^{-\lambda d} - e^{-\lambda u-\lambda d})$$
